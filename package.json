@@ -1,0 +1,15 @@
+{
+  "name": "classassign",
+  "version": "1.0.0",
+  "description": "Contains list of links to yv video",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  }
+}
