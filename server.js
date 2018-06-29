@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-app.set("port", 5000)
+app.set("port", process.env.PORT || 5000)
     .use(express.json())
     .use(express.urlencoded())
 	.use(express.static(__dirname + "/public"))
